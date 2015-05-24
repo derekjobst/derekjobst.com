@@ -17,7 +17,9 @@
 	
   <div class="container">
 		<h1>Derek Jobst</h1>
-		<div class="subtitle"><h4><a href="mailto:contact@derekjobst.com">Email</a> | <a href="https://github.com/derekjobst">Github</a> | <a href="http://linkedin.com/in/derekjobst">LinkedIn</a> | <a href="http://twitter.com/derekjobst">Twitter</a> | <a href="http://facebook.com/derekjobst">Facebook</a></h4></div>
+		<div class="subtitle">
+			<h4><a href="mailto:contact@derekjobst.com">Email</a> | <a href="https://github.com/derekjobst">Github</a> | <a href="http://linkedin.com/in/derekjobst">LinkedIn</a> | <a href="http://twitter.com/derekjobst">Twitter</a> | <a href="http://facebook.com/derekjobst">Facebook</a></h4>
+		</div>
 		<br>
 		<div class="about">
 			<div class="portrait"></div>
@@ -26,7 +28,7 @@
 				<strong>Derek Jobst</strong> is a junior at the <a href="http://www.upenn.edu">University of Pennsylvania</a>. There, he studies Computer Science in the school of Engineering and Applied Science. 
 				</p>
 				<p>
-				Outside of classes, Derek is Director of Design at the <a href="http://pennapps.com">PennApps</a> Hackathon, an organizer of the <a href="http://penntechtrek.com">Penn Tech Trek</a>, and is Vice President of <a href="http://www.pennutv.com">Penn UTV</a>. He is also a software engineer at <a href="http://www.applcart.co">Project Applecart</a>, a startup that provides data analytics and smart targeting services to political campaigns. In his free time, Derek enjoys working on video projects, photography, and skiing. 
+				Outside of classes, Derek is Director of Design at the <a href="http://pennapps.com">PennApps</a> Hackathon, an organizer of the <a href="http://penntechtrek.com">Penn Tech Trek</a>, and is Vice President of <a href="http://www.pennutv.com">Penn UTV</a>. He is also a software engineer at <a href="http://www.applecart.co">Project Applecart</a>, a startup that provides data analytics and smart targeting services to political campaigns. In his free time, Derek enjoys working on video projects, photography, and skiing. 
 				</p>
 				<p>
 				If you would like to speak with Derek, you should <a href="mailto:contact@derekjobst.com">email him</a>.
@@ -91,12 +93,8 @@
 		font-size: 1em;
 	}
 	
-	.subtitle h4{
-		text-align: center;
-	}
-	
 	a{
-		color: #665d31;
+		color: #1c4f6f;
 		text-decoration: none;
 	}
 	
@@ -106,7 +104,7 @@
 	
 	a:visited
 	{
-		color: #665d31;
+		color: #1c4f6f;
 	}
 	
 	p{
@@ -118,8 +116,16 @@
 	p a{
 		font-weight: 300;
 		font-style: italic;
-		color: #1c4f6f;
 
+	}
+	
+	.subtitle h4{
+		text-align: center;
+		color: #665d31;
+	}
+	
+	.subtitle h4 a{
+		color: #665d31;
 	}
 	
 	.about{
@@ -127,7 +133,6 @@
 	  display: flex;
 	  margin-top: 50px;
 	  margin-bottom: 50px;
-
 	 }
 	
 	.about .portrait{
