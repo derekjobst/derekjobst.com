@@ -1,2 +1,2 @@
 # derekjobst.com
-Personal Website for Derek jobst
+Personal Website for Derek Jobst
